@@ -1,15 +1,25 @@
 {
   "name": "alexaserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# AlexaServer\"",
   "main": "server.js",
   "dependencies": {
+    "alexa-app": "^4.0.1",
     "alexa-app-server": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "NPM sanjay",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsanjuseason/alexaserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rsanjuseason/alexaserver/issues"
+  },
+  "homepage": "https://github.com/rsanjuseason/alexaserver#readme"
 }
